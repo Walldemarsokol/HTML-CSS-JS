@@ -92,6 +92,89 @@
                     margin-bottom: 96px;
                 }
                 
+                .featured__text {
+                    color: #222;
+                    font-family: Lato;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                
+                .sub__featured {
+                    color: #9F9F9F;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                
+                .text_1 {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .text_2 {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 48px;
+                }
+                
+                .items__block {
+                    gap: 30px;
+                    display: grid;
+                    grid-template-columns: repeat(3, 360px);
+                    grid-template-rows: repeat(2, 1fr);
+                    justify-content: center;
+                }
+                
+                .img_items {
+                    width: 360px;
+                    height: 420px;
+                    background-color: #F7E4E2;
+                }
+                
+                .items_comtain {
+                    display: grid;
+                    gap: 16px;
+                    padding: 24px 16px 24px 16px;
+                }
+                
+                .items__head {
+                    display: flex;
+                    color: #000;
+                    font-family: Lato;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                
+                .items__text {
+                    color: #5D5D5D;
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+                
+                .items__price {
+                    color: #F16D7F;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                
+                .footer {
+                    margin-top: 48px;
+                    display: flex;
+                    justify-content: center;
+                }
+                
                 .footer__button {
                     border: 2px solid #F16D7F;
                     color: #F26376;
@@ -102,4 +185,7 @@
                     line-height: normal;
                     width: 212px;
                     height: 48px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }

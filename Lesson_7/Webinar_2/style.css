@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item__1{
+    padding: 50px 50px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left__box{
+    border: 1px solid black  ;
+    width: 65%;
+    height: 200px;
+    background-color: aqua;
+}
+
+.right__box{
+    padding-top: 10px;
+    width: 32%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one__item{
+    border: 1px solid black  ;
+    width: 80%;
+    height: 32%;
+    background-color: green;
+}
+
+.two__item{
+    border: 1px solid black  ;
+    width: 80%;
+    height: 32%;
+    background-color: pink;
+}
+
+@media (max-width:768px){
+
+    .center{
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .item__1{
+        padding: 50px 50px 5px;
+    
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .left__box{
+        border: 1px solid black  ;
+        width: 100%;
+        height: 200px;
+        background-color: aqua;
+    }
+    
+    .right__box{
+        padding-top: 0;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .one__item{
+        border: 1px solid black  ;
+        width: 48%;
+        height: 100%;
+        background-color: green;
+    }
+    
+    .two__item{
+        border: 1px solid black  ;
+        width: 48%;
+        height: 100%;
+        background-color: pink;
+    }
+}
+
+@media (max-width: 425px){
+    .center{
+        padding-left: calc(50% - 212px);
+        padding-right: calc(50% - 212px);
+    }
+
+    .item__1{
+        padding: 50px 50px 5px;
+    
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .left__box{
+        border: 1px solid black  ;
+        width: 100%;
+        height: 200px;
+        background-color: aqua;
+    }
+    
+    .right__box{
+        padding-top: 0;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    .one__item{
+        border: 1px solid black  ;
+        width: 100%;
+        height: 100%;
+        background-color: green;
+        box-shadow: 10px 5px 5px red;
+    }
+    
+    .two__item{
+        border: 1px solid black  ;
+        width: 100%;
+        height: 100%;
+        background-color: pink;
+    }
+}

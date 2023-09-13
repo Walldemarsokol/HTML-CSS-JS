@@ -9,6 +9,11 @@ body {
     margin-bottom: 50px;
 }
 
+p::first-letter {
+    font-size: 130%;
+    color: red;
+}
+
 .center {
     padding-left: calc(50% - 720px);
     padding-right: calc(50% - 720px);
@@ -113,9 +118,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     min-height: 100px;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 .button__color {

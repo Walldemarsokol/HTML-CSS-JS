@@ -114,6 +114,17 @@ a:hover {
     align-items: center;
     min-height: 100px;
     margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button__color {
+    background: url(./img/Gold_Button_001.svg);
+    background-size: 200px 40px;
+    width: 200px;
+    height: 40px;
+    background-color: #a3a1a1;
+    font-size: 15px;
 }
 
 
@@ -178,22 +189,16 @@ content {}
     /* padding: 10px; */
     /* Поля вокруг текста */
     /* Цвет фона */
-    color: #fff;
+    background-color: #444444;
     /* Цвет текста */
     width: 100%;
-    /* Ширина слоя */
-}
-
-.footer__color {
-    background-color: #444444;
-    padding-left: calc(50% - 720px);
-    padding-right: calc(50% - 720px);
     height: 50px;
+    /* Ширина слоя */
 }
 
 .table__text__size {
     font-size: 30px;
-    position: relative;
+    margin-left: 80px;
 }
 
 .footer__text {

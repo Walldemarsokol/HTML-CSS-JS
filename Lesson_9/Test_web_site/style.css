@@ -315,6 +315,25 @@ a:hover {
 
 .img_stat {
     border: thick double #e45124;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 400px;
     height: 400px;
+}
+
+
+/* .orange_border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thick double #e45124;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.warm_floors_cabel {
+    margin-top: 80px;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 400px);
 }

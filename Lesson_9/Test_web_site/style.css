@@ -65,10 +65,6 @@
     align-items: center;
 }
 
-.icon:hover path {
-    fill: blue;
-}
-
 .test__link {}
 
 .thirst__link:hover {
@@ -95,7 +91,7 @@
     } */
 
 a:link:hover {
-    color: blue;
+    color: black;
 }
 
 .consultation {
